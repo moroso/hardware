@@ -1,0 +1,15 @@
+# This file generates usb_a1hsw6.fp.
+pin -3.5_mm 0_mm 0.92_mm 1.5_mm "1"
+pin -1_mm 0_mm 0.92_mm 1.5_mm "2"
+pin 1_mm 0_mm 0.92_mm 1.5_mm "3"
+pin 3.5_mm 0_mm 0.92_mm 1.5_mm "3"
+
+pin -6.57_mm 2.71_mm 2.3_mm 3_mm ""
+pin 6.57_mm 2.71_mm 2.3_mm 3_mm ""
+
+line -7.05_mm -7.05_mm -1_mm 1.2_mm
+line -7.05_mm -7.05_mm 4.22_mm 13.01_mm
+line  7.05_mm  7.05_mm -1_mm 1.2_mm
+line  7.05_mm  7.05_mm 4.22_mm 13.01_mm
+line -7.05_mm  7.05_mm -1_mm -1_mm
+line -7.05_mm  7.05_mm 13.01_mm 13.01_mm
