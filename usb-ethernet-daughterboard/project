@@ -1,0 +1,3 @@
+output-name daughterboard
+schematics usb_phy.sch
+elements-dir ../symbols
