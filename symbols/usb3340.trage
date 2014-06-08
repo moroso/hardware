@@ -1,0 +1,91 @@
+# tragesym file used to generate the symbol for the usb3340.
+# This file is included here only as a reference; you should not generate
+# the .sym file again from it, because the .sym file has been manually edited.
+
+[options]
+# wordswap swaps labels if the pin is on the right side an looks like this:
+#   "PB1 (CLK)". That's useful for micro controller port labels
+# rotate_labels rotates the pintext of top and bottom pins
+#   this is useful for large symbols like FPGAs with more than 100 pins
+# sort_labels will sort the pins by it's labels
+#   useful for address ports, busses, ...
+wordswap=yes
+rotate_labels=no
+sort_labels=no
+generate_pinseq=yes
+sym_width=3000
+pinwidthvertical=200
+pinwidthhorizontal=400
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# name is only some graphical text, not an attribute
+# version specifies a gschem version.
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20060113 1
+name=usb3340
+device=usb3340
+refdes=U?
+footprint=QFN32_5_EP
+description=
+documentation=
+author=
+dist-license=
+use-license=
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+#comment=
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# ----------------------------------------
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the net. Vcc or GND for example.
+# label represents the pinlabel.
+#	negation lines can be added with "\_" example: \_enable\_ 
+#	if you want to write a "\" use "\\" as escape sequence
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+1		out	line	r		CLKOUT
+2		out	line	r		NXT
+3		io	line	l		DATA0
+4		io	line	l		DATA1
+5		io	line	l		DATA2
+6		io	line	l		DATA3
+7		io	line	l		DATA4
+9		io	line	l		DATA5
+10		io	line	l		DATA6
+13		io	line	l		DATA7
+8		in	line	l		REFSEL0
+11		in	line	l		REFSEL1
+14		in	line	l		REFSEL2
+15		io	line	r		SPK_L
+16		io	line	r		SPK_R
+17		out	line	b		CPEN
+18		io	line	r		DP
+19		io	line	r		DM
+20		pwr	line	b		VDD33
+21		pwr	line	b		VBAT
+22		io	line	b		VBUS
+23		in	line	r		ID
+24		io	line	b		RBIAS
+25		out	line	l		XO
+26		in	line	l		REFCLK
+27		in	line	l		RESETB
+28		pwr	line	b		VDD18
+30		pwr	line	b		VDD18
+32		pwr	line	b		VDDIO
+29		in	line	r		STP
+31		out	line	r		DIR
