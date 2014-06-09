@@ -1,3 +1,7 @@
 *-
 *~
-*.backup
+*.backup*
+*#
+*.cmd
+*.net
+*.new.pcb

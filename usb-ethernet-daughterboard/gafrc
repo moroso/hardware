@@ -1,1 +1,2 @@
 (component-library "../footprints")
+(component-library "../symbols")

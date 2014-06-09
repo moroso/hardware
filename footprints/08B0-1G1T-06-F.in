@@ -1,0 +1,25 @@
+pin -8.065_mm -3.17_mm 1.57_mm 2_mm ""
+pin  8.065_mm -3.17_mm 1.57_mm 2_mm ""
+pin -6.350_mm     0_mm 3.25_mm 4_mm ""
+pin  6.350_mm     0_mm 3.25_mm 4_mm ""
+
+pin -5.075_mm 11.17_mm 0.95_mm 1.25_mm "1"
+pin -3.045_mm 11.17_mm 0.95_mm 1.25_mm "2"
+pin -1.015_mm 11.17_mm 0.95_mm 1.25_mm "3"
+pin  1.015_mm 11.17_mm 0.95_mm 1.25_mm "4"
+pin  3.045_mm 11.17_mm 0.95_mm 1.25_mm "5"
+pin  5.075_mm 11.17_mm 0.95_mm 1.25_mm "6"
+
+pin -7.225_mm 13.64_mm 1.10_mm 1.35_mm "7"
+pin -4.685_mm 13.64_mm 1.10_mm 1.35_mm "8"
+pin  4.685_mm 13.64_mm 1.10_mm 1.35_mm "9"
+pin  7.225_mm 13.64_mm 1.10_mm 1.35_mm "10"
+
+line -8.19_mm  8.19_mm -10.93_mm -10.93_mm
+line -8.19_mm  8.19_mm  14.60_mm  14.60_mm
+
+line -8.19_mm -8.19_mm -10.93_mm -04.17_mm
+line -8.19_mm -8.19_mm  14.60_mm   1.00_mm
+
+line  8.19_mm  8.19_mm -10.93_mm -04.17_mm
+line  8.19_mm  8.19_mm  14.60_mm   1.00_mm
